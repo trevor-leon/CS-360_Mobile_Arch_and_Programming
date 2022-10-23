@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SMS_UpdatesActivity">
+
+    <TextView
+        android:id="@+id/sms_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_info_text"
+        android:textSize="48sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/low_inventory_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/low_inventory_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/low_inventory"
+        android:hint="@string/low_inventory"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/get_updates_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/get_updates"
+        android:onClick="getUpdatesClick"
+        app:layout_constraintEnd_toEndOf="@+id/low_inventory_number"
+        app:layout_constraintStart_toStartOf="@+id/low_inventory_number"
+        app:layout_constraintTop_toBottomOf="@+id/low_inventory_number" />
+</androidx.constraintlayout.widget.ConstraintLayout>
