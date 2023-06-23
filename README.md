@@ -2,7 +2,7 @@
 
 # The onHand Inventory application
 
-This application features a login activity, inventory, activity, details activity, and an SMS message updates activity. It uses a Login and an Inventory SQLite database to store the appropriate data.
+This application features a login activity, inventory activity, details activity, and an SMS message updates activity. It uses a Login and an Inventory SQLite database to store the appropriate data.
 
 
 The login activity allows the user to enter their username and password. After a value has been entered in each field, the Login and Create Account buttons are enabled on the screen. From here, a user can create an account and store the Login information in the SQLite database, or they can login and enter the inventory activity.
