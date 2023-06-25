@@ -1,4 +1,4 @@
-# CS-360_Mobile_Arch_and_Programming
+# CS-360 Mobile Architecture and Programming
 
 # The onHand Inventory application
 
