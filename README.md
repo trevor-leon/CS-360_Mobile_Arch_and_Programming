@@ -70,8 +70,7 @@ If User taps Login or Create Account button AND username textbox does NOT match 
 	Turn the textbox RED and output invalid email Toast
 If User taps Login or Create Account button AND password textbox text does NOT match secure password pattern (x amount of characters; using lowercase letters, uppercase letters, and at least one number and symbol)
 	Turn the textbox RED and show output text explaining password rules
-	
-Else
+Else:
 	Login
 ```
 
